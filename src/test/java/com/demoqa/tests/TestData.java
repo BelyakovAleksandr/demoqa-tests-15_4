@@ -17,7 +17,7 @@ public class TestData {
     String year = String.valueOf(faker.number().numberBetween(1900, 2010));
     String subjects = "Computer Science";
     String hobbies = "Sports";
-    String picture = "image.jpg";
+    String picture = "Test_Demo.jpg";
     String address = faker.address().fullAddress();
     String state = "NCR";
     String city = "Delhi";

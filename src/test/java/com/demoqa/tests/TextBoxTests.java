@@ -33,7 +33,7 @@ public class TextBoxTests {
         $(".react-datepicker__day--019").click();
         $("#subjectsInput").setValue("Computer Science").pressEnter();
         $("#hobbiesWrapper").$(byText("Sports")).click();
-        $("#uploadPicture").uploadFromClasspath("image.jpg");
+        $("#uploadPicture").uploadFromClasspath("Test_Demo.jpg");
         $("#currentAddress").setValue("Calgary");
         $("#state").click();
         $("#stateCity-wrapper").$(byText("NCR")).click();
@@ -49,7 +49,7 @@ public class TextBoxTests {
         $$(".table-responsive").findBy(text("Date of Birth")).shouldHave(text("19 February,1971"));
         $$(".table-responsive").findBy(text("Subjects")).shouldHave(text("Computer Science"));
         $$(".table-responsive").findBy(text("Hobbies")).shouldHave(text("Sports"));
-        $$(".table-responsive").findBy(text("Picture")).shouldHave(text("image.jpg"));
+        $$(".table-responsive").findBy(text("Picture")).shouldHave(text("Test_Demo.jpg"));
         $$(".table-responsive").findBy(text("Address")).shouldHave(text("Calgary"));
         $$(".table-responsive").findBy(text("State and City")).shouldHave(text("NCR Delhi"));
 

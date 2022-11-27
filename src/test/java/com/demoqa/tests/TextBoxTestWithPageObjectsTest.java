@@ -32,7 +32,7 @@ public class TextBoxTestWithPageObjectsTest {
                 .setBirthDate("19", "February", "1971")
                 .setSubjects("Computer Science")
                 .setHobbies("Sports")
-                .setPicture("image.jpg")
+                .setPicture("Test_Demo.jpg")
                 .setAddress("Calgary", "NCR", "Delhi")
                 .clickSubmit();
 
@@ -44,7 +44,7 @@ public class TextBoxTestWithPageObjectsTest {
                         .checkResult("Date of Birth", "19 February,1971")
                         .checkResult("Subjects", "Computer Science")
                         .checkResult("Hobbies", "Sports")
-                        .checkResult("Picture", "image.jpg")
+                        .checkResult("Picture", "Test_Demo.jpg")
                         .checkResult("Address", "Calgary")
                         .checkResult("State and City", "NCR Delhi");
 
